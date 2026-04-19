@@ -2,15 +2,21 @@ const express = require('express');
 const router = express.Router();
 const { connectToDatabase } = require('../config/db');
 
-router.get('/api/gifts', async (req, res) => {
+// GET ALL GIFTS
+router.get('/', async (req, res) => {
   const db = await connectToDatabase();
   const gifts = await db.collection('gifts').find().toArray();
   res.json(gifts);
 });
 
-router.get('/api/gifts/:id', async (req, res) => {
+// GET SINGLE GIFT BY ID
+router.get('/:id', async (req, res) => {
   const db = await connectToDatabase();
-  const gift = await db.collection('gifts').findOne({ id: req.params.id });
+
+  const gift = await db.collection('gifts').findOne({
+    _id: req.params.id
+  });
+
   res.json(gift);
 });
 
