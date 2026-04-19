@@ -1,25 +1,33 @@
-# User Stories
+# User Story
 
-## Story 1
-As a user, I want to register an account so that I can access the platform.
+## User Story
+As a user, I need a platform where I can send and receive gifts so that I can easily share happiness with friends and family.
 
-## Story 2
-As a user, I want to log in so that I can use my account securely.
+---
 
-## Story 3
-As a user, I want to view available gifts so that I can choose items.
+## Details and Assumptions
+- The system allows users to register and login.
+- Users can browse available gifts.
+- Each gift has a category, name, and description.
+- Backend is built using Node.js and Express.
+- Data is stored in MongoDB.
+- Users can search gifts by category.
 
-## Story 4
-As a user, I want to search gifts by category so that I can find relevant items.
+---
 
-## Story 5
-As a user, I want to view gift details so that I can understand the item.
+## Acceptance Criteria
 
-## Story 6
-As a user, I want to add a gift so that I can share items.
+### Scenario 1: User views gift list
+Given the user is on the homepage  
+When the user requests gift data  
+Then the system displays a list of available gifts  
 
-## Story 7
-As a user, I want to edit my profile so that I can update my details.
+### Scenario 2: User searches gifts by category
+Given the user is on the search page  
+When the user selects a category  
+Then the system returns matching gifts  
 
-## Story 8
-As a user, I want to logout so that I can securely exit.
+### Scenario 3: User logs in successfully
+Given the user enters valid credentials  
+When the user clicks login  
+Then the system authenticates the user and returns success message  
