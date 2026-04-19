@@ -1,0 +1,18 @@
+[
+  { "id": "1", "name": "Sofa", "category": "Living Room" },
+  { "id": "2", "name": "Table", "category": "Living Room" },
+  { "id": "3", "name": "Chair", "category": "Living Room" },
+  { "id": "4", "name": "Bed", "category": "Bedroom" },
+  { "id": "5", "name": "Lamp", "category": "Bedroom" },
+  { "id": "6", "name": "Wardrobe", "category": "Bedroom" },
+  { "id": "7", "name": "Desk", "category": "Office" },
+  { "id": "8", "name": "Bookshelf", "category": "Office" },
+  { "id": "9", "name": "Coffee Table", "category": "Living Room" },
+  { "id": "10", "name": "TV Stand", "category": "Living Room" },
+  { "id": "11", "name": "Dresser", "category": "Bedroom" },
+  { "id": "12", "name": "Mirror", "category": "Bedroom" },
+  { "id": "13", "name": "Dining Table", "category": "Dining" },
+  { "id": "14", "name": "Dining Chair", "category": "Dining" },
+  { "id": "15", "name": "Shelf", "category": "Office" },
+  { "id": "16", "name": "Nightstand", "category": "Bedroom" }
+]
