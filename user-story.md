@@ -1,6 +1,5 @@
 # User Story
 
-## User Story
 As a user, I need a platform where I can send and receive gifts so that I can easily share happiness with friends and family.
 
 ---
